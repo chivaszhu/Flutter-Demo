@@ -78,4 +78,4 @@ CocoaPods是iOS项目的依赖管理工具，对于将Flutter集成到iOS项目�
 
 ### 资源链接：
 
-- [在现有应用中添加Flutter（中文）](https://flutter.cn/docs/development/add-to-app)
+- [在现有应用中添加Flutter（中文）]([https://flutter.cn/docs/development/add-to-app](https://flutter.cn/docs/development/add-to-app)https://flutter.cn/docs/development/add-to-app)
