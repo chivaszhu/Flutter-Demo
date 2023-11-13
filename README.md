@@ -1,4 +1,4 @@
-# 
+# 【Flutter共同进步】
 
 ### **1. 安装Flutter环境**
 
@@ -20,7 +20,7 @@
 
 ### 资源链接：
 
-- [Flutter官网安装指南（中文）](https://flutter.cn/docs/get-started/install/macos)
+- [Flutter官网安装指南](https://flutter.cn/docs/get-started/install/macos)
 
 ### **2 安装CocoaPods**
 
@@ -38,7 +38,11 @@ CocoaPods是iOS项目的依赖管理工具，对于将Flutter集成到iOS项目�
 4. **验证安装**：
     - 运行 **`pod --version`**。
     - 如果返回版本号，则表示安装成功。
-    - 
+
+  ### 资源链接：
+
+- [Cocoapods安装指南]([https://developer.apple.com/cn/xcode/](https://developer.aliyun.com/article/913483))
+   
 ### **3. 安装Xcode（对于iOS开发）**
 
 ### 步骤：
@@ -48,7 +52,7 @@ CocoaPods是iOS项目的依赖管理工具，对于将Flutter集成到iOS项目�
 
 ### 资源链接：
 
-- [Xcode安装指南（中文）](https://developer.apple.com/cn/xcode/)
+- [Xcode安装指南](https://developer.apple.com/cn/xcode/)
 
 ### **4. 安装Android Studio（对于Android开发）**
 
@@ -59,7 +63,7 @@ CocoaPods是iOS项目的依赖管理工具，对于将Flutter集成到iOS项目�
 
 ### 资源链接：
 
-- [Android Studio安装指南（中文）](https://developer.android.com/studio/install)
+- [Android Studio安装指南](https://developer.android.com/studio/install)
 
 ### **5. 在现有的iOS/Android项目中集成Flutter**
 
@@ -78,4 +82,4 @@ CocoaPods是iOS项目的依赖管理工具，对于将Flutter集成到iOS项目�
 
 ### 资源链接：
 
-- [在现有应用中添加Flutter（中文）]([https://flutter.cn/docs/development/add-to-app](https://flutter.cn/docs/development/add-to-app)https://flutter.cn/docs/development/add-to-app)
+- [在现有应用中添加Flutter]([https://flutter.cn/docs/development/add-to-app](https://flutter.cn/docs/development/add-to-app)https://flutter.cn/docs/development/add-to-app)
