@@ -21,6 +21,12 @@ android {
     }
 
     buildTypes {
+        getByName("debug")
+        getByName("release")
+        create("profile") {
+            initWith(getByName("debug"))
+            // Additional settings for 'profile' build type
+        }
         release {
             isMinifyEnabled = false
             proguardFiles(
@@ -48,9 +54,18 @@ android {
         }
     }
 }
+val storageUrl: String = System.getenv("FLUTTER_STORAGE_BASE_URL") ?: "https://storage.googleapis.com"
 
+repositories {
+    google()
+    mavenCentral()
+    maven(url = "/Users/chivas/Desktop/FlutterDemo/flutter_module/build/host/outputs/repo")
+    maven(url = storageUrl)
+}
 dependencies {
-
+    "debugImplementation"("com.example.flutter_module:flutter_debug:3.13.9")
+    "profileImplementation"("com.example.flutter_module:flutter_profile:3.13.9")
+    "releaseImplementation"("com.example.flutter_module:flutter_release:3.13.9")
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.7.0")
@@ -66,4 +81,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+//    implementation(project(":flutter_module"))
+
 }

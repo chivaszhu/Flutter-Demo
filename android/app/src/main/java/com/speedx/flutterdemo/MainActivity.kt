@@ -15,6 +15,7 @@ import com.speedx.flutterdemo.ui.theme.FlutterDemoTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContent {
             FlutterDemoTheme {
                 // A surface container using the 'background' color from the theme

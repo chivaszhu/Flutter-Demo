@@ -1,3 +1,5 @@
+import java.io.File
+
 pluginManagement {
     repositories {
         google()
@@ -6,7 +8,7 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
         mavenCentral()
@@ -15,4 +17,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "FlutterDemo"
 include(":app")
- 
+//include(":flutter_module")
+//project(":flutter_module").projectDir = File("../flutter_module/.android/Flutter")

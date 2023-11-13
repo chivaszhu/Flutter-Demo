@@ -21,16 +21,16 @@ class _LoginPageState extends State<LoginPage> {
         color: Color.fromRGBO(247, 247, 252, 1.0),
           child: Column(
             children: [
-              HeaderView(),
-              LoginMessageView(),
-              SizedBox(height: 34),
+              const HeaderView(),
+              const LoginMessageView(),
+              const SizedBox(height: 34),
               LoginFieldView(fieldTextString: "Username", onSubmitted: (String value){
                 setState(() {
                   _username = value;
                   print(_username);
                 });
               }),
-              SizedBox(height: 34,),
+              const SizedBox(height: 34,),
               LoginFieldView(fieldTextString: "Password", onSubmitted: (String value){
                 setState(() {
                   _password = value;
