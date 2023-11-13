@@ -1,7 +1,6 @@
-<img width="1010" alt="image" src="https://github.com/chivaszhu/Flutter-Demo/assets/6993572/b26a952e-df22-4ecb-994c-062d87597827">
-
-
 # 【Flutter共同进步】
+<img width="1010" alt="image" src="https://github.com/chivaszhu/Flutter-Demo/assets/6993572/b26a952e-df22-4ecb-994c-062d87597827">
+<img width="997" alt="image" src="https://github.com/chivaszhu/Flutter-Demo/assets/6993572/e947c632-571a-4b4d-9864-94e9a2b0c383">
 
 ### **1. 安装Flutter环境**
 
